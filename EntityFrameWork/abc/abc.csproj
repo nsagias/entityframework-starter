@@ -3,11 +3,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">anycpu</Platform>
-    <ProjectGuid>{D582A28F-3243-4220-B44B-828711D28AF7}</ProjectGuid>
+    <ProjectGuid>{0991B462-5AEC-42B8-9A3C-73E9B7F39E36}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>EntityFrameworkNet.ConsoleApp</RootNamespace>
-    <AssemblyName>EntityFrameworkNet.ConsoleApp</AssemblyName>
-    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <RootNamespace>abc</RootNamespace>
+    <AssemblyName>abc</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|anycpu' ">
     <DebugSymbols>true</DebugSymbols>
