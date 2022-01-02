@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkNet.ConsoleA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkNet.Data", "EntityFrameworkNet.Data\EntityFrameworkNet.Data.csproj", "{E7933C77-3CB9-41E5-A2D4-4848B8FD8E67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkNet.Domain", "EntityFrameworkNet.Domain\EntityFrameworkNet.Domain.csproj", "{4281960A-B024-44CE-840A-ED35C8BB6994}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -21,6 +23,10 @@ Global
 		{E7933C77-3CB9-41E5-A2D4-4848B8FD8E67}.Debug|anycpu.Build.0 = Debug|Any CPU
 		{E7933C77-3CB9-41E5-A2D4-4848B8FD8E67}.Release|anycpu.ActiveCfg = Release|Any CPU
 		{E7933C77-3CB9-41E5-A2D4-4848B8FD8E67}.Release|anycpu.Build.0 = Release|Any CPU
+		{4281960A-B024-44CE-840A-ED35C8BB6994}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{4281960A-B024-44CE-840A-ED35C8BB6994}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{4281960A-B024-44CE-840A-ED35C8BB6994}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{4281960A-B024-44CE-840A-ED35C8BB6994}.Release|anycpu.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
