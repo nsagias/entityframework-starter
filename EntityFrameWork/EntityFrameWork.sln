@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.810.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkNet.ConsoleApp", "EntityFrameworkNet.ConsoleApp\EntityFrameworkNet.ConsoleApp.csproj", "{D582A28F-3243-4220-B44B-828711D28AF7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkNet.Data", "EntityFrameworkNet.Data\EntityFrameworkNet.Data.csproj", "{E7933C77-3CB9-41E5-A2D4-4848B8FD8E67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|anycpu = Debug|anycpu
@@ -15,6 +17,10 @@ Global
 		{D582A28F-3243-4220-B44B-828711D28AF7}.Debug|anycpu.Build.0 = Debug|anycpu
 		{D582A28F-3243-4220-B44B-828711D28AF7}.Release|anycpu.ActiveCfg = Release|anycpu
 		{D582A28F-3243-4220-B44B-828711D28AF7}.Release|anycpu.Build.0 = Release|anycpu
+		{E7933C77-3CB9-41E5-A2D4-4848B8FD8E67}.Debug|anycpu.ActiveCfg = Debug|Any CPU
+		{E7933C77-3CB9-41E5-A2D4-4848B8FD8E67}.Debug|anycpu.Build.0 = Debug|Any CPU
+		{E7933C77-3CB9-41E5-A2D4-4848B8FD8E67}.Release|anycpu.ActiveCfg = Release|Any CPU
+		{E7933C77-3CB9-41E5-A2D4-4848B8FD8E67}.Release|anycpu.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
