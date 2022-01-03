@@ -13,7 +13,9 @@ namespace EntityFrameworkNet.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB; Intitial Catalog=FootballLeague_EfCore");
+            optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB; Intitial Catalog=FootballLeague_EfCore");
+            //optionsBuilder.UseSqlServer(@"Server=localhost,1433;Trusted_Connection=True;MultipleActiveResultSets=true;User ID=sa;Password=FunInTheSun1"
+);
             
         }
         // Link to tables
