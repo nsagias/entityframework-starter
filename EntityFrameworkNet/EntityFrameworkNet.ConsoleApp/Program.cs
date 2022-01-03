@@ -11,7 +11,8 @@ namespace EntityFrameworkNet.ConsoleApp
 
         static async Task Main(string[] args)
         {
-            await context.Leagues.AddAsync(new League { Name = "League with Toronto FC Division" });
+            var league = new League { Name = "League with Toronto FC Division" };
+            await context.Leagues.AddAsync(league);
             await context.SaveChangesAsync();
 
 
