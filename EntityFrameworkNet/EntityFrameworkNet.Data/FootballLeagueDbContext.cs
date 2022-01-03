@@ -1,5 +1,6 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
+using EntityFrameworkNet.Domain;
 
 namespace EntityFrameworkNet.Data
 {
@@ -8,5 +9,8 @@ namespace EntityFrameworkNet.Data
         public FootballLeagueDbContext()
         {
         }
+
+        // Link to tables
+        public DbSet<Team> Teams { get; set; }
     }
 }
