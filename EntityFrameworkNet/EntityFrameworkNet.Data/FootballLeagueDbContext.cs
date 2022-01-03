@@ -12,5 +12,6 @@ namespace EntityFrameworkNet.Data
 
         // Link to tables
         public DbSet<Team> Teams { get; set; }
+        public DbSet<League> Leagues { get; set; }
     }
 }
