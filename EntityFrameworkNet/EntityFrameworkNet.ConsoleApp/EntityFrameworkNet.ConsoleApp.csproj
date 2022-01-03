@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\EntityFrameworkNet.Data\EntityFrameworkNet.Data.csproj" />
+    <ProjectReference Include="..\EntityFrameworkNet.Domain\EntityFrameworkNet.Domain.csproj" />
+  </ItemGroup>
 </Project>
